@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/navegation.js"></script>
+    <script src="./js/main.js"></script>
+
+    <title>slide2</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <img src="./assets/fondo.png" alt="fondo" class="fondo" />
+      <a href="javascript:;" onclick="goTo('slide3')"
+        ><img src="./assets/nextSlide.png" class="next"
+      /></a>
+      <a href="javascript:;" onclick="goTo('slide1')"
+        ><img src="./assets/backSlide.png" class="back"
+      /></a>
+      <a href="javascript:;" onclick="goTo('slide1')"
+        ><img src="./assets/homeSlide.png" class="home"
+      /></a>
+      <img
+        src="./assets/rectanguloAzul.png"
+        alt="rectanguloAzul"
+        class="rectanguloAzul"
+      />
+      <img src="./assets/line.png" alt="line1" class="line1" />
+      <img src="./assets/line.png" alt="line2" class="line2" />
+      <img
+        src="./assets/logoDabatrox.png"
+        alt="logoDabatrox"
+        class="logoDabatrox"
+      />
+      <div class="sub-container">
+        <div class="titulo">MECANISMO DE ACCIÓN<sup>1-7</sup></div>
+        <img src="./assets/grafico1.png" alt="grafico1" class="grafico1" />
+        <button class="btn-lupa" onclick="showPopup()">
+          <img src="./assets/lupa.png" alt="lupa" class="lupa" />
+        </button>
+
+        <img src="./assets/grafico2.png" alt="grafico2" class="grafico2" />
+        <div class="footer">
+          Adaptado de <span>1</span>. Rankin EB, et al.
+          <i>Proc Natl Acad Sci U S A.</i> 2014 Sep 16;111(37):13373-8. 
+          <span>2.</span> Zhou L, et al. <i>Oncogene.</i> 2016
+          May;35(21):2687-97. <span>3.</span> Kwilas AR, et al.
+          <i>J Transl Med.</i> 2014 Nov 13;12:294. <span>4.</span> Tannir NM, et
+          al. <i>Curr <br> Oncol Rep.</i> 2017 Feb;19(2):14. <span>5.</span> Goyal L,
+          et al. <i>Clin Cancer Res.</i> 2013 May 1;19(9):2310-8.
+          <span>6.</span> Abou-Alfa GK, et al. <i>N Engl J Med.</i> 2018 Jul
+          5;379(1):54-63. <span>7.</span> Graham DK, et al.
+          <i>Nat Rev Cancer.</i> 2014 Dec;14(12):769-85.
+        </div>
+      </div>
+      <div class="popup" id="popup" style="display: none">
+        <div class="popupContainer"> 
+          <button class="close" id="closePopup" onclick="closePopup()">
+          <img src="./assets/closeBoton.png" alt="Cerrar popup" />
+        </button>
+        <img
+          src="./assets/grafico1.png"
+          alt="grafico1Popup"
+          class="grafico1Popup"
+        />
+      </div>
+        </div>
+    </div>
+
+  </body>
+</html>
