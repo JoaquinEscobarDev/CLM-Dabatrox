@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/navegacion.js"></script>
+    <script src="./js/veeva-library-3.0.js"></script>
+    <script src="./js/main.js"></script>
+
+    <title>slide3</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <img src="./assets/fondo.png" alt="fondo" class="fondo" />
+      <a href="javascript:;" onclick="goTo('CLM_DABATROX_SLIDE_14')"
+        ><img src="./assets/nextSlide.png" class="next"
+      /></a>
+      <a href="javascript:;" onclick="goTo('CLM_DABATROX_SLIDE_12')"
+        ><img src="./assets/backSlide.png" class="back"
+      /></a>
+      <a href="javascript:;" onclick="goTo('CLM_DABATROX_SLIDE_1')"
+        ><img src="./assets/homeSlide.png" class="home"
+      /></a>
+      <img
+        src="./assets/rectanguloAzul.png"
+        alt="rectanguloAzul"
+        class="rectanguloAzul"
+      />
+      <img src="./assets/line.png" alt="line1" class="line1" />
+      <img src="./assets/line.png" alt="line2" class="line2" />
+      <img
+        src="./assets/logoDabatrox.png"
+        alt="logoDabatrox"
+        class="logoDabatrox"
+      />
+
+      <div class="sub-container">
+      <div class="titulo"><i>TIME-LINE</i> DE SU DESARROLLO CLÍNICO <br> <span>El futuro de cabozantinib en el cáncer de tiroides<sup>20-21</sup></span></div>
+      <div class="texto1">Elghawy, et al (2024), observaron que en <br> el estudio COSMIC-311 se incluyeron 7 <br> pacientes con cáncer de tiroides <br> pobremente diferenciado (CTPD) que <br> también se beneficiaron del tratamiento <br> con cabozantinib.<sup>20</sup></div>
+      <div class="texto2">SLP, supervivencia libre de progresión; SG, supervivencia global.</div>
+      <img src="./assets/grafico1.png" alt="grafico1" class="grafico1" />
+      <img src="./assets/grafico2.png" alt="grafico2" class="grafico2" />
+
+      <button class="btn-lupa" onclick="showPopup()">
+        <img src="./assets/lupa.png" alt="lupa" class="lupa" />
+      </button>
+
+
+      <div class="footer">Adaptado de <span>20.</span> Capdevila J, et al. <i>Thyroid.</i> 2022 May;32(5):515-524. <span>21.</span> Kiesewetter B, et al. <i>Mag of Euro Med Oncol.</i> 2023  Jan 10;16:47–51.</div>
+
+      <div class="popup" id="popup" style="display: none">
+        <div class="popupContainer">
+          <button class="close" id="closePopup" onclick="closePopup()">
+            <img src="./assets/closeBoton.png" alt="Cerrar popup" />
+          </button>
+          <img src="./assets/grafico1.png" alt="grafico1Popup" class="grafico1Popup" />
+        </div>
+      </div>
+    </div>
+
+    </div>
+</body>
+</html>

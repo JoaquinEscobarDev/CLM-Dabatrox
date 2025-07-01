@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+}
+
+
+.container {
+  width: 1024px;
+  height: 768px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.fondo {
+  width: 1024px;
+  height: 768px;
+  position: absolute;
+}
+
+.rectanguloAzul{
+    position: absolute;
+    width: 267px;
+    height: 56px;
+    margin-left: 378px;
+    margin-bottom: 712px;
+}
+
+.home{
+    position: absolute;
+    width: 42px;
+    height: 38px;
+    margin-left: 400px;
+    margin-top: 7px;
+    z-index: 1;
+
+}
+
+.back{
+    position: absolute;
+    width: 18px;
+    height: 37px;
+    margin-left: 502px;
+    margin-top: 7px;
+    z-index: 1;
+
+}
+
+.next{
+    position: absolute;
+    width: 19px;
+    height: 38px;
+    margin-left: 591px;
+    margin-top: 7px;
+    z-index: 1;
+
+}
+
+.line1{
+    position: absolute;
+    width: 1px;
+    height: 38px;
+    margin-left: 467px;
+    margin-top: 7px;
+    z-index: 1;
+
+}
+
+.line2{
+    position: absolute;
+    width: 1px;
+    height: 38px;
+    margin-left: 556px;
+    margin-top: 7px;
+    z-index: 1;
+    
+}
+
+.logoDabatrox{
+    position: absolute;
+    width: 202px;
+    height: 64px;
+    margin-left: 778px;
+    margin-top: 38px;
+    z-index: 1;
+}
+
+.sub-container{
+    position: absolute;
+    width: 893px;
+    height: 595px;
+    margin-left: 65px;
+    margin-top: 129px;
+}
+
+.titulo {
+  position: absolute;
+  width: 498px;
+  height: 44px;
+  margin-left: 21px;
+  margin-top: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: #009EE2;
+  text-align: center;
+
+}
+
+.grafico1 {
+    position: absolute;
+    width: 363px;
+    height: 280px;
+    margin-left: 265px;
+    margin-top: 62px;
+    z-index: 1;
+
+}
+
+.lupa {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  margin-left: 635px;
+  margin-top: 285px;
+  z-index: 2;
+
+}
+
+
+.grafico2 {
+  position: absolute;
+  width: 683px;
+  height: 170px;
+  margin-left: 105px;
+  margin-top: 340px;
+  z-index: 1;
+
+}
+
+.footer {
+    position: absolute;
+    width: 834px;
+    height: 20px;
+    margin-left: 6px;
+    margin-top: 518px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8px;
+    color: #000000;
+   
+}
+
+span{
+    font-weight: bold;
+}
+
+.popup {
+    position: fixed;
+    display: none;
+    width: 1024px;
+    height: 768px;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 10;
+}
+
+.popupContainer{
+    position: absolute;
+    width: 893px;
+    height: 639px;
+    margin-left: 65px;
+    margin-top: 64px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.grafico1Popup {
+    width: 665px;
+    height: 515;
+    margin-left: 114px;
+    margin-top: 64px;
+    z-index: 2;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.popup .close img {
+    width: 40px;
+    height: 40px;
+}

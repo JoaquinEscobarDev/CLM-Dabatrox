@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+}
+
+.container {
+  width: 1024px;
+  height: 768px;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+.fondo{
+    width: 1024px;
+    height: 768px;
+    position: absolute;
+}
+
+
+.rectanguloAzul{
+    position: absolute;
+    width: 267px;
+    height: 56px;
+    margin-left: 378px;
+    margin-bottom: 712px;
+}
+
+.home{
+    position: absolute;
+    width: 42px;
+    height: 38px;
+    margin-left: 400px;
+    margin-top: 7px;
+    z-index: 1;
+
+}
+
+.back{
+    position: absolute;
+    width: 18px;
+    height: 37px;
+    margin-left: 502px;
+    margin-top: 7px;
+    z-index: 1;
+
+}
+
+.next{
+    position: absolute;
+    width: 19px;
+    height: 38px;
+    margin-left: 591px;
+    margin-top: 7px;
+    z-index: 1;
+
+}
+
+.line1{
+    position: absolute;
+    width: 1px;
+    height: 38px;
+    margin-left: 467px;
+    margin-top: 7px;
+    z-index: 1;
+
+}
+
+.line2{
+    position: absolute;
+    width: 1px;
+    height: 38px;
+    margin-left: 556px;
+    margin-top: 7px;
+    z-index: 1;
+    
+}
+
+.logoDabatrox{
+    position: absolute;
+    width: 202px;
+    height: 64px;
+    margin-left: 778px;
+    margin-top: 38px;
+    z-index: 1;
+}
+
+.sub-container {
+    position: absolute;
+    width: 893px;
+    height: 602px;
+    margin-left: 65px;
+    margin-top: 129px
+}
+
+.titulo {
+    position: absolute;
+    width: 762px;
+    height: 76px;
+    margin-left: 14px;
+    margin-top: 21px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    color: #009EE2;
+    
+}
+.titulo span { 
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.texto1{
+    position: absolute;
+    width: 349px;
+    height: 110px;
+    margin-left: 26px;
+    margin-top: 177px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #000000;
+
+}
+
+.rectanguloAzul2{
+    position: absolute;
+    width: 360px;
+    height: 101px;
+    margin-left: 21px;
+    margin-top: 342px;
+
+}
+
+.texto2{
+    position: absolute;
+    width: 328px;
+    height: 88px;
+    margin-left: 37px;
+    margin-top: 360px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.grafico1 {
+    position: absolute;
+    width: 461px;
+    height: 386px;
+    margin-left: 402px;
+    margin-top: 130px;
+
+}
+
+.footer{
+    position: absolute;
+    width: 804px;
+    height: 51px;
+    margin-left: 21px;
+    margin-top: 539px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #000000;
+}
+.footer span{
+    font-weight: bold;
+    color: #000000;
+}

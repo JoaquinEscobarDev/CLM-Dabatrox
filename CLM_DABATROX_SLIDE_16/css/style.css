@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+}
+
+.container {
+  width: 1024px;
+  height: 768px;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+.fondo{
+    width: 1024px;
+    height: 768px;
+    position: absolute;
+}
+
+.rectanguloAzul{
+    position: absolute;
+    width: 178px;
+    height: 56px;
+    margin-left: 378px;
+    margin-bottom: 712px;
+}
+
+.home{
+    position: absolute;
+    width: 42px;
+    height: 38px;
+    margin-left: 400px;
+    margin-top: 7px;
+    z-index: 1;
+
+}
+
+.back{
+    position: absolute;
+    width: 18px;
+    height: 37px;
+    margin-left: 502px;
+    margin-top: 7px;
+    z-index: 1;
+
+}
+
+.line1{
+    position: absolute;
+    width: 1px;
+    height: 38px;
+    margin-left: 467px;
+    margin-top: 7px;
+    z-index: 1;
+
+}
+
+.grafico1{
+    position: absolute;
+    width: 725px;
+    height: 224px;
+    margin-left: 150px;
+    margin-top: 313px;
+    z-index: 1;
+
+}
